@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.section-title {
+    background: white;
+    margin: 0;
+    font-weight: 700;
+    color: black;
+    margin-bottom: -9px;
+    font-size: 45px;
+    padding-left: 10px;
+}
+.section-title_tage{
+    display: inline-flex;
+    color: skyblue;
+    font-size:21px;
+    font-weight: 400;
+    align-items: center;
+    line-height: 1;
+    padding-left: 10px;
+}
+.section-title_tage::after {
+    content: '';
+    background-color: currentColor;
+    width: 56px;
+    height: 2px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.img_1 {
+    display: block;
+    margin-left: 600px;
+    margin-right: auto;
+    margin-top:-480px;
+    background: white;
+    position: ;
+  }
+  .about-two__summery {
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 500;
+    color: darkslategray;
+    padding: 10px;
+}
+.sentance{
+    padding: 10px;
+    display: flex;
+    color: #02489d;
+}
+.sentance h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+.highlight{
+    padding: 15px;
+}
+.about_one_highlight p{
+    color: rgb(238, 93, 9);
+    font-size: 30px;
+}
+
+  /* end */

@@ -1,0 +1,28 @@
+
+.container{
+    position:relative;
+}
+
+.topright{
+    position:absolute;
+    top:8px;
+    right:16px;
+    font-size:15px;
+    color:white;
+}
+
+.img{
+    width:300;
+    height:300;
+    border-radius:50%;
+}
+.topleft{
+    font-style:normal;
+    position: relative;
+    text-decoration: underline;
+    top:15px;
+    left:10px;
+    font-size:50px;
+  
+    color:rgb(14, 109, 112);
+}

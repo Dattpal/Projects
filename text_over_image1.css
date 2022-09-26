@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 1260px;
+    height: auto;
+    overflow: auto;
+    
+  
+}
+.cont-wrapper{
+   width: 1260px;
+   height: 530px;
+}
+.cont-wrapper img{
+    width: 1260px;
+    height: 530px;
+    margin: 0;
+}
+.text-wrapper{
+   
+    position: relative;
+    margin-top: -280px;
+}
+.text-wrapper h1{
+    text-align: left;
+    color: #fff;
+    font-size: 60px;
+
+}
+
+
+
+/*.text-wrapper h1:hover{
+    padding-left: 70px;
+    transition: all 0.5s ease;
+    
+}

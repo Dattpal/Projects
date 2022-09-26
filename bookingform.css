@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue',helvetica,arial, sans-serif;
+}
+body{
+    
+}
+.cont-book{
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 30px;
+    margin-bottom: 120px;
+    background-color: #fff;
+    padding: 25px 40px 10px 40px;
+}
+.cont-book .text .tagline{
+    display: inline-flex;
+    color: #3fbfef;
+    font-size: 18px;
+    font-weight: 400;
+    align-items: center;
+    line-height: 1;
+}
+.cont-book .text .tagline::after{
+    content: '';
+    background-color: currentColor;
+    width: 56px;
+    height: 2px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.text h1{
+    font-size: 35px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 10px;
+}
+.cont-book form{
+    padding: 30px 0 0 0 0;
+    box-sizing: border-box;
+    margin-bottom: auto
+}
+.cont-book form .form-row{
+    display:;
+    margin: 36px 0;
+}
+form .form-row .input-data{
+    width: 100%;
+    height: 40px;
+    margin: 0 20px;
+    position: relative;
+}
+form .form-row textarea{
+    height: 80px;
+    padding-top: 15px;
+    width: 829px;
+    margin-top: 30px;
+}
+.input-data textarea{
+    padding: 20px;
+    margin: 30px;
+}
+form .form-row .slt{
+    padding:20px;
+    padding-top: px;
+    margin: 30px;
+    margin-top: 40px;
+    width: 290px;
+    display: flex;
+}
+option{
+    height: 80px;
+    padding-top: 15px;
+    width: 200px;
+}
+.input-data input,
+textarea input{
+    padding: 20px;
+    margin: 30px;
+    display: block;
+    height: 140%;
+    width:70%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid rgba(0,0,0,0.12);
+}
+.input-data input:hover,
+textarea input{
+    color: black;
+    cursor: pointer;
+    background: rgb(180, 176, 160);
+}
+.input-data  .thm-btn{
+    padding: 20px;
+    margin-top: 120px;
+    font-size: 20px;
+    margin-left: 20px;
+    background-color: orange;
+    margin: 30px;
+}
+.input-data  .thm-btn:hover{
+    color: #fff;
+    background: #02489d;
+}
+form .form-row .thm-btn{
+    margin-top: 120px;
+    
+}
+.input-data select .slt{
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.input-data select .slt:hover{
+    color: crimson;
+    background: darkgrey;
+    cursor: pointer;
+}
+.textarea{
+    width: 1230px;
+}

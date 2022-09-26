@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue',helvetica,arial, sans-serif;
+}
+.section{
+    display: flex;
+     margin: 23px;
+}
+.image_1{
+    margin-left: 5x;
+    padding-right:50px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.image_2{
+    
+    padding-right:50px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.section-title_one {
+    margin: 0;
+    font-weight: 700;
+    color: black;
+    margin-bottom: -9px;
+    font-size: 45px;
+    padding-left: 10px;
+}
+.section-title_tage_one{
+    display: inline-flex;
+    color: skyblue;
+    font-size:21px;
+    font-weight: 400;
+    align-items: center;
+    line-height: 1;
+    padding-left: 10px;
+}
+.section-title_tage_one::after {
+    content: '';
+    background-color: currentColor;
+    width: 56px;
+    height: 2px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.about_one_highlight{
+    color: red;
+    font-size: 34px;
+    margin-top: -200px;
+    padding-left: 500px;
+}
+  .about-two__summery_one {
+    margin: 0;
+    color:  darkslategray;
+    font-size: 25px;
+    line-height: 34px;
+    padding-left: 500px;
+    margin-top: 35px;
+    margin-bottom: 40px;
+    font-weight: 400;
+}

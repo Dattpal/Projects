@@ -1,0 +1,112 @@
+body{
+    color: #fcf7f7;
+   
+}
+a{
+    color: #e03a3c;
+}
+a:hover{
+    color: #e76668;
+    text-decoration: none;
+}
+.team .member{
+    margin-bottom: 20px;
+    overflow: hidden;
+    background: #fff;
+      
+}
+.team .member .member-img{
+    position:relative;
+    overflow: hidden;
+    margin: 21px;
+    border-radius: 5px;
+}
+.team .member .social{
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    right: 0;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    text-align: center;
+}
+.team .member:hover .social{
+    opacity: 1;
+    bottom:15px;
+}
+.team .member .social a{
+    transition: color 0.3s;
+    color: #111111;
+    margin: 0 3px;
+    padding-top: 7px;
+    border-radius: 50px;
+    width: 36px;
+    height: 36px;
+    background: rgb(245, 4, 4);
+    display: inline-block;
+    transition: black;
+    color: rgb(253, 252, 252);
+}
+.team .member .social a:hover{
+    background:rgb(59, 52, 52);
+}
+.team .member .social i{
+    font-size: 18px;
+}
+.team .member .member-info{
+    padding: 15px 25px;
+}
+.team .member .member-info h2{
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #111111;
+    overflow:visible;
+}
+.team .member .member-info span{
+    display: flex;
+    font-size: 15px;
+    font-weight: 400;
+    color: #aaaaaa;
+}
+/*section*/
+section{
+    padding: 60px 0;
+    overflow: hidden;
+    position: relative;
+}
+.section-title{
+    text-align: center;
+    padding-bottom: 30px;
+    position: relative;
+}
+.section-title h1{
+    font-size: 21px;
+    font-weight: 400;
+    text-transform:none;
+    padding-bottom: 20px;
+    color:skyblue;
+}
+.section-title p{
+    font-size: 45px;
+    font-weight: 700;
+    color: black;
+}
+.section-bg{
+    padding: 120px 0;
+    color: #fff;
+}
+.section-bg::before{
+    content: "";
+    background:rgb(71, 127, 165);
+    position: absolute;
+    bottom: 60px;
+    top:60px;
+    left: 0;
+    right: 0;
+    transform: skewY(-4deg);
+}
+.row_r{
+    display: flex;
+    position: relative;
+}

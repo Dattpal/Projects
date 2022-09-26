@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'helvetica neue',helvetica,arial, sans-serif;
+}
+
+#searchbox{
+    width: 50%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+#searchbox h1{
+    color:white;
+    align-items: center;
+    margin-left: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 25px;
+}
+#searchbox input ,button{
+    width: 75%;
+    border:2px solid rgb(129, 128, 128);
+    border-right: 0px;
+    font-size: 18px;
+    padding: 12px;
+    color: rgb(26, 24, 24);
+}
+#searchbox button{
+    width: 25%;
+    background: #eee;
+    color: rgb(17, 16, 16);
+    float: right;
+    border-left: 0px;
+}
+#searchbox button:hover{
+    opacity: .8;
+
+}
+#searchbox input:hover{
+    opacity: .8;
+    
+}

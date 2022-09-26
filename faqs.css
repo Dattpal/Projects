@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'helvetica neue',helvetica,arial, sans-serif;
+}
+.box{
+    width: 95%;
+    margin: 70px auto;
+    background: url(images/carwash-1-1.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 6px 8px 4px black;
+}    
+.box .heading{
+    background: rgb(167, 165, 165);
+    border-radius: 7px 7px 0px 0px;
+    padding: 12px;
+    color: #fff;
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.faqs{
+    padding: 30px 50px;
+    margin-top: 3px;
+   
+}
+details{
+    background: #f6f6f6;
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family:monospace;
+    letter-spacing: 1px;
+}
+details summary{
+    outline: none;
+}
+.text{
+    font-weight: 300;
+    padding-top: 20px;
+    color: rgb(48, 98, 136);
+}

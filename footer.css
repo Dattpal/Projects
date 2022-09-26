@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+.body{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+}
+/* footer design*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cont{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+ul{
+    list-style: none;
+  
+}
+.footer{
+    background-color: #24262d;
+    padding: 70px 0;
+}
+.footer_col{
+    width: 20%;
+    padding: 0 5px;
+}
+.img_footer{
+    width:260px;
+    height: 80px;
+    position: relative;
+    margin-left:-18px;
+    margin-top: -2ch;
+}
+
+.footer_col h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 800;
+    position: relative;
+}
+.footer_col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer_col h5{
+    font-size: 16px;
+    color: #bbbbbb;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 400;
+    position: relative;
+  
+    text-decoration: none;
+}
+.footer_col ul li:not(:last-child){
+margin-bottom: 10px;
+}
+.footer_col ul li a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+    color: #bbbbbb;
+    transition: all 0.3s ease;
+}
+.footer_col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.footer_col .social_links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: aliceblue;
+    transition: all 05.s ease;
+}
+.footer_col .social_links a:hover{
+    color: #24262b;
+    background-color: rgb(151, 199, 199);
+}
+/*responsive*/
+@media(max-width:767px){
+    .footer_col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:574px){
+    .footer_col {
+        width: 100%;
+    }
+}
+/* end */
